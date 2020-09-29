@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/cssreset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Calculator</h1>
+    </header>
+      <div class="container">
+        <form class="calculator" method="post">
+          <p>
+              <input type="text" id="visor" placeholder="Result">
+          </p>
+          <table id="content">
+            <tr>
+              <td><input type="button" value="7" onclick="insertElement('7')"></td>
+              <td><input type="button" value="8" onclick="insertElement('8')"></td>
+              <td><input type="button" value="9" onclick="insertElement('9')"></td>
+              <td><input type="button" value="=" onclick="calculate()" name="botao"></td>
+            </tr>
+            <tr>
+              <td><input type="button" value="4" onclick="insertElement('4')"></td>
+              <td><input type="button" value="5" onclick="insertElement('5')"></td>
+              <td><input type="button" value="6" onclick="insertElement('6')"></td>
+              <td><input type="button" value="x" onclick="operator(' x')"></td>
+            </tr>
+            <tr>
+              <td><input type="button" value="1" onclick="insertElement('1')"></td>
+              <td><input type="button" value="2" onclick="insertElement('2')"></td>
+              <td><input type="button" value="3" onclick="insertElement('3')"></td>
+              <td><input type="button" value="/" onclick="operator(' /')"></td>
+            </tr>
+            <tr>
+              <td><input type="button" value="0" onclick="insertElement('0')"></td>
+              <td><input type="button" value="." onclick="insertElement('.')"></td>
+              <td><input type="button" value="- " onclick="operator(' -')"></td>
+              <td><input type="button" value="+" onclick="operator(' +')"></td>
+            </tr>
+            <tr>
+              <td><input type="button" value="CE" onclick="ce()"></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+      <script src="js/features.js" charset="utf-8"></script>
+      <!-- <script src="js/testesv1.js" charset="utf-8"></script> -->
+      <script src="js/testesv2.js" charset="utf-8"></script>
+
+  </body>
+</html>
