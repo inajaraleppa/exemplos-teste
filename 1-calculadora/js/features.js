@@ -12,7 +12,7 @@ function operator(oper) {
 }
 
 //It will clean the "visor"
-function ce() {
+function clean() {
   setDisplayValue("dfd");
 }
 
