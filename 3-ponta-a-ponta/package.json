@@ -1,0 +1,22 @@
+{
+  "name": "trilha-testes-wipt-ponta-a-ponta",
+  "version": "1.0.0",
+  "description": "Testes ponta a ponta realizdos para a trilha de testes para WiPT",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inajaraleppa/exemplos-teste.git"
+  },
+  "author": "Inajara Leppa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inajaraleppa/exemplos-teste/issues"
+  },
+  "homepage": "https://github.com/inajaraleppa/exemplos-teste#readme",
+  "devDependencies": {
+    "cypress": "^5.4.0"
+  }
+}
